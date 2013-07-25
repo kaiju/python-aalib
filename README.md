@@ -1,0 +1,1 @@
+My modest fork of [Jakub Wilk's python-aalib Mercurial repo](https://bitbucket.org/jwilk/python-aalib) to fix a few things, since I had absolutely no interest in using Mercurial myself.
