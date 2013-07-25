@@ -25,8 +25,9 @@ interface to AA-lib, an ASCII art library
 '''
 
 import ctypes
+from ctypes.util import find_library
 
-libaa = ctypes.CDLL('libaa.so.1')
+libaa = ctypes.CDLL(find_library('aa'))
 
 class Font(ctypes.Structure):
     pass
